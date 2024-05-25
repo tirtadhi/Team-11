@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.hero {
+  padding-top: 60px; /* Sesuaikan dengan tinggi navbar Anda */
+}
 
 body {
   background-color: #fff6e5;
@@ -47,33 +50,7 @@ body {
   font-weight: 400;
   width: 80%;
 }
-
-/* visimisi css  */
-
-#visimisi .kolom {
-  background: linear-gradient(360deg, #c9cc7e, #ffff7d);
-  padding: 30px;
-  border-radius: 30px;
-}
-.text-visi {
-  font-weight: bold;
-  font-size: 35px;
-  text-align: center;
-  font-weight: bold;
-  color: #666666;
-}
-.text-misi {
-  font-weight: bold;
-  font-size: 35px;
-  text-align: center;
-  font-weight: bold;
-  color: #666666;
-}
-#visimisi p {
-  color: #666666;
-}
-/* end visimisi css */
-/* responsive */
+/* responsive hero*/
 @media (max-width: 990px) {
   .hide {
     display: none;
@@ -116,25 +93,61 @@ body {
   }
 }
 
+/* visimisi css  */
 
-
-#background-story {
-  margin-bottom: 120px;
+#visimisi .kolom {
+  background: linear-gradient(360deg, #c9cc7e, #ffff7d);
+  padding: 30px;
+  border-radius: 30px;
+}
+.text-visi {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  color: #666666;
+}
+.text-misi {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  color: #666666;
+}
+#visimisi p {
+  color: #666666;
+}
+/* end visimisi css */
+/* responsive hero*/
+@media (max-width: 990px) {
+  .text-visi,
+  .text-misi {
+    font-size: 25px;
+  }
+  .text-isi {
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+    font-size: 14px;
+  }
 }
 
-.title-body {
-  font-size: 1.5rem;
+/* story css */
+#background-story {
+  margin-bottom: 120px;
 }
 
 .title-caption {
   font-size: 1.25rem;
   color: #666666;
   font-weight: 600;
-  text-align: center
+  text-align: center;
 }
 
-.story-paragraf {
-  max-width: 576px;
+.artikel-subjudul {
+  font-size: 1.5rem;
+  color: #666666;
+  font-weight: 600;
 }
 
 /* Responsive Story Section */
@@ -143,9 +156,10 @@ body {
   #background-story .body .d-flex {
     flex-direction: column-reverse;
   }
+  .title-caption {
+    font-size: 0.9rem;
+  }
 }
-
-
 
 /* Backup footer */
 /* footer {
