@@ -1,80 +1,180 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
 
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--icon-->
+    <link
+      rel="shortcut icon"
+      href="/assets/header.ico"
+    />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- google font inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>11 Ekspress</title>
-    
+
     <!-- css -->
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm header">
-        <div class="container">
-            <img src="assets/navLogo.png" alt="" class="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">PROFILE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">VISI MISI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">KARIR</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <img
+          src="assets/navLogo.png"
+          alt=""
+          class="logo"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarText"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="#profil"
+                >PROFILE</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#visimisi"
+                >VISI MISI</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#contact"
+                >CONTACT</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#karir"
+                >KARIR</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero container mt-4">
-        <div class="col-md-10 text-hero-div">
-            <p class="text-hero">Kami berkomitmen untuk memberikan <span style="color: #C9CC7E;"> Pelayanan <br class="hide"> Mudah, Cepat dan Terpercaya </span>untuk membantu <br class="hide"> pelaku bisnis berkembang dan maju.</p>
+    <section
+      id="profil"
+      class="hero container mt-4"
+    >
+      <div class="col-md-10 text-hero-div">
+        <p class="text-hero">
+          Kami berkomitmen untuk memberikan
+          <span style="color: #c9cc7e">
+            Pelayanan <br class="hide" />
+            Mudah, Cepat dan Terpercaya </span
+          >untuk membantu <br class="hide" />
+          pelaku bisnis berkembang dan maju.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-5 d-flex justify-content-center py-3">
+          <img
+            src="assets/heroImage.png"
+            alt="Hero Image"
+            class="hero-img"
+          />
         </div>
-        
-        <div class="row">
-            <div class="col-md-5 d-flex justify-content-center py-3">
-                <img src="assets/heroImage.png" alt="Hero Image" class="hero-img ">
-            </div>
-            <div class="col-md-7 d-flex justify-content-start py-3 text-lead-div">
-                <div class="text-lead d-flex">
-                    <p>11 Express hadir pada tahun 2020 memberikan inovasi layanan pickup paket tanpa ketentuan untuk menjawab dan membantu menyelesaikan permasalahan pelaku bisnis. Di tahun 2024, 11 express konsisten untuk terus melakukan inovasi yang didukung oleh teknologi pengiriman terintegrasi untuk terus membantu pelaku bisnis agar mendapatkan pengalaman pengiriman yang mudah, cepat dan terpecaya.</p>
-                </div>
-               
-            </div>
+        <div class="col-md-7 d-flex justify-content-start py-3 text-lead-div">
+          <div class="text-lead d-flex">
+            <p>
+              11 Express hadir pada tahun 2020 memberikan inovasi layanan pickup paket tanpa ketentuan untuk menjawab dan membantu menyelesaikan permasalahan pelaku bisnis. Di tahun 2024, 11 express konsisten untuk terus melakukan inovasi
+              yang didukung oleh teknologi pengiriman terintegrasi untuk terus membantu pelaku bisnis agar mendapatkan pengalaman pengiriman yang mudah, cepat dan terpecaya.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End Hero Section -->
 
+    <!-- visimisi -->
+    <section id="visimisi">
+      <div class="container spectrum-animation">
+        <div class="row text-center mb-3 mt-5"></div>
+        <div class="row justify-content-center fs-5">
+          <div class="col-md-4 mt-3 kolom m-5 text-center">
+            <h3 class="text-center text-visi">VISI</h3>
+            <p class="text-center">Menjadi perusahaan expedisi yang memberikan layanan Mudah, Cepat dan Terpercaya. <br /><br /><br /><br /><br /><br /><br /><br /></p>
+            <img
+              src="/assets/visi.svg"
+              alt="gambar"
+              width="200"
+            />
+          </div>
+          <div class="col-md-4 mt-3 m-5 kolom text-center">
+            <h3 class="text-center text-misi">MISI</h3>
+            <p class="text-center">
+              Kami berkomitmen membangun keunggulan operasional yang terpercaya dan aman, serta memberdayakan bisnis digital dan ekonomi kreatif untuk pertumbuhan berkelanjutan. Kami fokus pada kepuasan pelanggan, ekosistem terintegrasi,
+              pelestarian lingkungan, pemberdayaan sosial, dan menciptakan lingkungan kerja yang produktif dan nyaman.
+            </p>
+            <img
+              src="/assets/misi.svg"
+              alt="gambar"
+              width="200"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END visimisi -->
 
     <!-- boostrap cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
