@@ -46,29 +46,31 @@
 
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm header">
+    <nav
+      class="navbar navbar-expand-lg navbar-light shadow fixed-top"
+      style="background-color: white"
+    >
       <div class="container">
         <img
-          src="assets/navLogo.png"
+          src="/assets/navLogo.png"
           alt=""
-          class="logo"
         />
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse"
-          id="navbarText"
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
         >
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a
                 class="nav-link"
@@ -87,15 +89,15 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="#contact"
-                >CONTACT</a
+                href="#background-story"
+                >CAREER</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="#karir"
-                >KARIR</a
+                href="#contact"
+                >CONTACT</a
               >
             </li>
           </ul>
@@ -141,12 +143,12 @@
 
     <!-- visimisi -->
     <section id="visimisi">
-      <div class="container spectrum-animation">
+      <div class="container">
         <div class="row text-center mb-3 mt-5"></div>
         <div class="row justify-content-center fs-5">
           <div class="col-md-4 mt-3 kolom m-5 text-center">
             <h3 class="text-center text-visi">VISI</h3>
-            <p class="text-center">Menjadi perusahaan expedisi yang memberikan layanan Mudah, Cepat dan Terpercaya. <br /><br /><br /><br /><br /><br /><br /><br /></p>
+            <p class="text-center text-isi">Menjadi perusahaan expedisi yang memberikan layanan Mudah, Cepat dan Terpercaya. <br /><br /><br /><br /><br /><br /><br /><br /></p>
             <img
               src="/assets/visi.svg"
               alt="gambar"
@@ -155,7 +157,7 @@
           </div>
           <div class="col-md-4 mt-3 m-5 kolom text-center">
             <h3 class="text-center text-misi">MISI</h3>
-            <p class="text-center">
+            <p class="text-center text-isi">
               Kami berkomitmen membangun keunggulan operasional yang terpercaya dan aman, serta memberdayakan bisnis digital dan ekonomi kreatif untuk pertumbuhan berkelanjutan. Kami fokus pada kepuasan pelanggan, ekosistem terintegrasi,
               pelestarian lingkungan, pemberdayaan sosial, dan menciptakan lingkungan kerja yang produktif dan nyaman.
             </p>
@@ -171,79 +173,105 @@
     <!-- END visimisi -->
 
     <!-- background story -->
-    <section id="background-story">
-      <div class="container my-5">
-        <section class="head mb-5">
-          <h2 class="title-section text-center text-hero mb-3">
-            Kisah awal singkat perjalanan 11 Express
-            hingga saat ini
-          </h2>
-          <p class="title-caption">Dari langkah-langkah kecil menuju tujuan yang besar</p>
-        </section>
-        <section class="body">
-          <div class="d-flex">
-            <div class="body-text">
-              <p class="title-body text-hero text-start "><span style="color: #c9cc7e">
-                  11 Express </span>Background
-              </p>
-              <p class="story-paragraf">
-                Kisah ini berawal dari tahun 2014, 11 Express menjadi ekspedisi yang mulai memasuki ranah Social Commerce, Corporate, dan e-commerce dengan kualitas layanan pengiriman terbaik bagi para pelanggan. Nilai-nilai yang 11 Express miliki menjadi visi utama untuk memenuhi kebutuhan layanan pengiriman mereka.
-                11 Express terus meningkatkan kinerjanya dengan membangun jaringan pendukung yang kuat dan saling terhubung di seluruh Indonesia.
-              </p>
-            </div>
-            <div class="body-img">
-              <img src="./assets/storyImage.png" alt="" class="main-img">
-            </div>
-          </div>
-        </section>
+    <section
+      id="background-story"
+      class="hero container"
+    >
+      <div class="mb-5">
+        <p class="text-hero text-center mb-3">Kisah awal singkat perjalanan 11 Express hingga saat ini</p>
+        <p class="text-center title-caption">Dari langkah-langkah kecil menuju tujuan yang besar</p>
       </div>
 
+      <div class="row">
+        <div class="col-md-6 d-flex justify-content-start py-3 text-lead-div">
+          <div class="d-flex flex-column">
+            <h1 class="artikel-subjudul mb-4"><span style="color: #c9cc7e"> 11 Express</span> Background</h1>
+            <p class="artikel">
+              Kisah ini berawal dari tahun 2014, SiCepat menjadi ekspedisi yang mulai memasuki ranah Social Commerce, Corporate, dan e-commerce dengan kualitas layanan pengiriman terbaik bagi para pelanggan. Nilai-nilai yang SiCepat miliki
+              menjadi visi utama untuk memenuhi kebutuhan layanan pengiriman mereka. SiCepat terus meningkatkan kinerjanya dengan membangun jaringan pendukung yang kuat dan saling terhubung di seluruh Indonesia.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center py-3">
+          <img
+            src="/assets/storyImage.png"
+            alt="Hero Image"
+            class="hero-img"
+          />
+        </div>
+      </div>
     </section>
+    <!-- END -->
 
-
-
-
-
-
-
-
-
-
-    <!-- <footer>
+    <!-- footer 
+    <footer>
       <div class="footer-content-wrapper">
         <h2 class="footer-title mb-4 text-hero text-start">CONTACT US</h2>
         <ul class="contact-list p-0">
           <li class="contact-item mb-3 d-flex align-items-center">
-            <ion-icon class="contact-icon h2 pe-5" name="call-outline"></ion-icon>
-            <p class="contact-label">
-              062-999-021
-            </p>
+            <ion-icon
+              class="contact-icon h2 pe-5"
+              name="call-outline"
+            ></ion-icon>
+            <p class="contact-label">062-999-021</p>
           </li>
           <li class="contact-item mb-2 d-flex align-items-center">
-            <ion-icon class="contact-icon h2 pe-5" name="mail-outline"></ion-icon><p class="contact-label">
-              11express@gmail.com
-            </p>
+            <ion-icon
+              class="contact-icon h2 pe-5"
+              name="mail-outline"
+            ></ion-icon>
+            <p class="contact-label">11express@gmail.com</p>
           </li>
           <li class="contact-item mb-2 d-flex align-items-center">
-            <ion-icon class="contact-icon h2 pe-5" name="logo-whatsapp"></ion-icon><p class="contact-label">
-              062-213-412
-            </p>
+            <ion-icon
+              class="contact-icon h2 pe-5"
+              name="logo-whatsapp"
+            ></ion-icon>
+            <p class="contact-label">062-213-412</p>
           </li>
           <li class="contact-item mb-2 d-flex align-items-center">
-              <ion-icon class="contact-icon h2 pe-5" name="location-outline"></ion-icon>
-              <p class="contact-label">
-              universitas pamulang, kecamatan pamulang, kota tangerang selatan, provinsi banten
-            </p>
+            <ion-icon
+              class="contact-icon h2 pe-5"
+              name="location-outline"
+            ></ion-icon>
+            <p class="contact-label">universitas pamulang, kecamatan pamulang, kota tangerang selatan, provinsi banten</p>
           </li>
         </ul>
         <div class="line"></div>
-        <p class="copyright mt-3 text-center"> copyright ISC Software development team 11</p>
+        <p class="copyright mt-3 text-center">copyright ISC Software development team 11</p>
       </div>
     </footer>
+    -->
 
     <!-- ionicon -->
-    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> --> -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- onscroll -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const navbarHeight = document.querySelector(".navbar").offsetHeight;
+        document.querySelectorAll("a.nav-link").forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
+            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+
+            window.scrollTo({
+              top: targetPosition,
+              behavior: "smooth",
+            });
+          });
+        });
+      });
+    </script>
 
     <!-- boostrap cdn -->
     <script
