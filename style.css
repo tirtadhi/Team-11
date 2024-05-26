@@ -150,6 +150,26 @@ body {
   font-weight: 600;
 }
 
+/* footer */
+.card-footer{
+  background: linear-gradient(#c9cc7e, #ffff7d);
+}
+.footer-body{
+  background-color:#fff6e5 ;
+  margin: 40px ;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.list{
+  margin: 30px;
+}
+
+.contact-list {
+  list-style-type: none;
+}
+/* END FOOTER */
+
 /* Responsive Story Section */
 
 @media (max-width: 767px) {
