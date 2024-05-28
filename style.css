@@ -11,6 +11,17 @@
 body {
   background-color: #fff6e5;
 }
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(360deg, #c9cc7e, #ffff7d);
+}
+::-webkit-scrollbar-track {
+  background-color: #fff6e5;
+  width: 50px;
+}
 /* navbar css */
 .header {
   background-color: white;
@@ -18,12 +29,42 @@ body {
 
 .nav-link {
   color: #666666;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
 }
 .logo {
   height: 55px;
   width: 116px;
+}
+.navbar-nav .nav-link {
+  position: relative;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c9cc7e; /* Ubah warna teks saat hover */
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #c9cc7e; /* Warna garis bawah saat hover */
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; /* Membuat garis bawah penuh saat hover */
+  left: 0;
+  background: #c9cc7e; /* Warna garis bawah saat hover */
 }
 /* end header css */
 
@@ -132,6 +173,31 @@ body {
   }
 }
 
+/* about-us */
+#about {
+  background: linear-gradient(#c9cc7e, #ffff7d);
+}
+
+.card {
+  background-color: #c9cc7e;
+  margin: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px); /* Menggeser kartu ke atas saat di-hover */
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih jelas saat di-hover */
+}
+.card-img-top {
+  height: 100%;
+  object-fit: cover;
+}
+.card-title {
+  margin-bottom: 0;
+}
+.card-text {
+  color: white;
+}
+
 /* story css */
 #background-story {
   margin-bottom: 120px;
@@ -151,17 +217,17 @@ body {
 }
 
 /* footer */
-.card-footer{
+.card-footer {
   background: linear-gradient(#c9cc7e, #ffff7d);
 }
-.footer-body{
-  background-color:#fff6e5 ;
-  margin: 40px ;
+.footer-body {
+  background-color: #fff6e5;
+  margin: 40px;
   border-radius: 16px;
   padding: 30px;
 }
 
-.list{
+.list {
   margin: 30px;
 }
 
@@ -180,22 +246,3 @@ body {
     font-size: 0.9rem;
   }
 }
-
-/* Backup footer */
-/* footer {
-  background: linear-gradient(360deg, #c9cc7e, #ffff7d);
-  padding: 2.5rem 3.5rem;
-}
-
-footer .footer-content-wrapper {
-  padding: 3.5rem 5rem;
-  border-radius: 2rem;
-  background-color: #FFF6E5;
-}
-
-footer .line {
-  height: 5px;
-  width: 100%;
-  border-radius: 6px;
-  background: linear-gradient(360deg, #c9cc7e, #ffff7d);
-} */
