@@ -191,7 +191,8 @@ body {
   box-shadow: 0 24px 48px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih jelas saat di-hover */
 }
 .card-img-top {
-  height: 100%;
+  width: 100%;
+  height: 180px;
   object-fit: cover;
 }
 .card-title {
