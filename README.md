@@ -26,3 +26,9 @@ Jika Anda ingin menjalankan proyek ini secara lokal, ikuti langkah-langkah berik
     ```
 3. Buka file `index.html` di browser untuk melihat website.
 
+## Kontributor
+- [Fardian]([https://github.com/fardian123](https://github.com/fardian123))
+- [Haqiqi]([https://github.com/Haqiqi28](https://github.com/Haqiqi28))
+- [Juan]([https://github.com/Zuans](https://github.com/Zuans))
+- [Teguh]([https://github.com/TeguhArifin](https://github.com/TeguhArifin))
+- [Tirta]([https://github.com/tirtadhi](https://github.com/tirtadhi))
