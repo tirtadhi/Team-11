@@ -1,14 +1,28 @@
-# Project 1: Website Company Profile
+# 11Express
 
-## 🛠 Tools
-<div align="left">
-  <img width="12" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=html" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=css" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bootstrap" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-</div>
+11Express adalah platform ekspedisi yang menyediakan layanan pengiriman paket yang mudah, cepat, dan terpercaya. Website ini memungkinkan pelaku bisnis untuk mengelola pengiriman dengan lebih efisien, menawarkan berbagai layanan pengiriman, dan memberikan pengalaman pengiriman yang optimal dengan dukungan teknologi.
+
+## Demo
+Website demo dapat diakses di [11Express](https://11express.netlify.app/).
+
+## Teknologi yang Digunakan
+- **HTML5** untuk struktur halaman
+- **CSS3** untuk desain dan tata letak
+- **Bootstrap 5** untuk responsivitas dan desain modern
+- **JavaScript** untuk interaktivitas dan pengelolaan data pengiriman
+- **Font Awesome** untuk ikon sosial media dan elemen visual
+
+## Instalasi
+
+Jika Anda ingin menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
+
+1. Clone repositori ini ke mesin lokal Anda:
+    ```bash
+    git clone https://github.com/username/11express.git
+    ```
+2. Buka folder proyek:
+    ```bash
+    cd 11express
+    ```
+3. Buka file `index.html` di browser untuk melihat website.
 
